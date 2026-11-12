@@ -18,7 +18,7 @@
     "test:built": "node --disable-warning=ExperimentalWarning --test test/built-server.e2e.js"
   },
   "dependencies": {
-    "nuxt": "4.6.3",
+    "nuxt": "4.6.4",
     "vue": "3.5.44",
     "vue-router": "5.4.0"
   }
