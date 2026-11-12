@@ -9,7 +9,7 @@
 [![Nuxt 4.6](https://img.shields.io/badge/nuxt-4.6.3-00DC82)](https://moonetix.com/academy/integrations/vue-nuxt-offerwall)
 [![Node 22](https://img.shields.io/badge/node-22.13%2B-339933)](https://moonetix.com/integrations/website)
 
-Vue never touches a key and never adds a coin. Nitro server routes sign the [Moonetix](https://moonetix.com) offerwall link for the session user and apply every credit and reversal, while the page only renders what the server returns. Moonetix is a pay-per-result affiliate network: your users earn your own currency by completing offers, and you earn per completed offer.
+Vue never touches a key and never adds a coin. Nitro server routes sign the [Moonetix](https://moonetix.com) offerwall link for the session user and apply every credit and reversal, while the page only renders what the server returns. Moonetix is an affiliate network: your users earn your own currency by completing offers, and you earn per completed offer.
 
 > **Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-vue-nuxt**
 
