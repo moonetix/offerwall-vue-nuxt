@@ -1,0 +1,25 @@
+{
+  "name": "offerwall-vue-nuxt",
+  "version": "1.0.0",
+  "description": "Nuxt 4 example app with the Moonetix offerwall: signed link from a server route and a verified, idempotent postback route.",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "node --env-file-if-exists=.env --disable-warning=ExperimentalWarning .output/server/index.mjs",
+    "postinstall": "nuxt prepare",
+    "create-user": "node --env-file-if-exists=.env --disable-warning=ExperimentalWarning scripts/create-user.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js",
+    "test:built": "node --disable-warning=ExperimentalWarning --test test/built-server.e2e.js"
+  },
+  "dependencies": {
+    "nuxt": "4.6.3",
+    "vue": "3.5.44",
+    "vue-router": "5.4.0"
+  }
+}
